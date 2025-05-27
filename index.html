@@ -2,10 +2,7 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Redirecting to Payment...</title>
-    <script>
-      window.location.href = "upi://pay?pa=7083221883@ybl&pn=Shubham&am=1&cu=INR";
-    </script>
+    <title>Pay with PhonePe</title>
     <style>
       body {
         font-family: sans-serif;
@@ -13,11 +10,24 @@
         justify-content: center;
         align-items: center;
         height: 100vh;
-        background: #f8f8f8;
+        background: #f9f9f9;
+        flex-direction: column;
+      }
+      a {
+        padding: 14px 24px;
+        font-size: 18px;
+        background-color: #4CAF50;
+        color: white;
+        text-decoration: none;
+        border-radius: 8px;
+      }
+      p {
+        margin-bottom: 20px;
       }
     </style>
   </head>
   <body>
-    <h2>Redirecting to PhonePe...</h2>
+    <p>Click below to pay ₹299 to Shubham via PhonePe or any UPI app:</p>
+    <a href="upi://pay?pa=7083221883@ybl&pn=Shubham&am=299&cu=INR" target="_self">Pay Now</a>
   </body>
 </html>
