@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <title>Redirecting to Payment...</title>
     <script>
-      window.location.href = "upi://pay?pa=7083221883@ybl&pn=Shubham&am=299&cu=INR";
+      window.location.href = "upi://pay?pa=7083221883@ybl&pn=Shubham&am=1&cu=INR";
     </script>
     <style>
       body {
